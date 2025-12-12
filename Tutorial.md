@@ -1,15 +1,5 @@
 
-### **2. `TUTORIAL.md`** *(Complete - shown earlier)*
 
-### **3. `requirements.txt`** *(Complete - shown earlier)*
-
-### **4. `src/core/__init__.py`** *(Complete - shown earlier)*
-
-### **5. `src/core/audit_trail_generator.py`** *(1,200 lines - provided earlier)*
-
-### **6. `src/core/compliance_drift.py`** *(900 lines - provided earlier)*
-
-### **7. `src/core/regulatory_embedding.py`** *(Complete version)*
 
 ```python
 """
