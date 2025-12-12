@@ -1,18 +1,28 @@
-# AuditOps: Continuous Compliance Framework
+# AuditOps: Continuous Compliance Framework for MLOps
 
-[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/UdaykumarMani24/Auditops)
+![Python Version](https://img.shields.io/badge/python-3.9%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Framework](https://img.shields.io/badge/framework-AuditOps-orange)
 
-A scientific demonstration of the AuditOps framework for continuous compliance monitoring in MLOps lifecycle.
+A comprehensive framework for integrating regulatory compliance directly into the MLOps lifecycle. AuditOps enables continuous compliance monitoring for regulated machine learning deployments in healthcare, finance, and other high-risk domains.
 
-## 📊 Overview
+## Features
 
-This repository implements **AuditOps**, a framework designed to embed continuous compliance monitoring seamlessly into the Machine Learning lifecycle. It validates regulatory requirements using real medical data and generates comprehensive audit trails.
+- **Shift-Left Compliance**: Embed regulatory requirements early in ML pipeline
+- **Continuous Verification**: Real-time compliance monitoring
+- **Explainability Preservation**: Maintain model interpretability across lifecycle
+- **Automated Audit Trails**: W3C PROV-O compliant provenance tracking
+- **Compliance Drift Detection**: Page-Hinkley based statistical monitoring
 
-## 🚀 Quick Start
+## Installation
 
-### 1. Clone the Repository
 ```bash
+# Clone repository
 git clone https://github.com/UdaykumarMani24/Auditops.git
 cd Auditops
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Install in development mode
+pip install -e .
